@@ -11,4 +11,4 @@ EXPOSE 8081
 
 LABEL authors="kbdemiranda"
 
-ENTRYPOINT ["java", "-jar", "/app/echopay.jar"]
+ENTRYPOINT ["java", "-jar", "/app/processor.jar"]
