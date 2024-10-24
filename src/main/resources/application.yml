@@ -10,3 +10,6 @@ spring:
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
 server:
   port: 8081
+echo:
+  pay:
+    url: ${ECHO_PAY_URL:http://localhost:8080/api/transactions/}
